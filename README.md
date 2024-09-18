@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/45def2b5-cde1-4a1f-9dde-22c12d3f322b)
-<h1 align='center'> :microscope: Regression Analysis On Yes Bank Stock Closing Price Prediction.<h1>
 
 ![--------------------------------------------------------------------------------------------](https://github.com/andreasbm/readme/blob/master/assets/lines/grass.png)
 
@@ -25,12 +23,12 @@ This Project includes:
 - Presentation Video
 
 ### Data Source:
-- [Dataset](https://raw.githubusercontent.com/Datawithabhishek/Yes-Bank-Stock-Closing-Price-Prediction/main/data_YesBank_StockPrices.csv) - Dataset taken from AlmaBetter
+- [Dataset] - Dataset taken from Known Sources
 
 ### Input Files:
 - **data_YesBank_StockPrices.csv** - It contains monthly observations of stock parameters such as open, high, low, and close.
 
-## 🗺️ Roadmap and Navigation guide
+## 🗺️ Roadmap Guide
 
 ---
 
@@ -65,12 +63,9 @@ Present the results of the regression analysis. Discuss the implications of the 
 ![NumPy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![Seaborn](https://img.shields.io/badge/Seaborn-blue?style=for-the-badge&logo=Seaborn)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
 ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 ![GoogleColab](https://img.shields.io/badge/GoogleColab-orange?style=for-the-badge&logo=GoogleColab)
 
 ## :scroll: Conclusion
 
-After implementing various regression models and analyzing their respective performance metrics, we came to the conclusion that the **KNN Regressor** is the top-performing model with respect to all the metrics. However, when considering cross-validation scores and other factors such as time complexity, additional analysis may be required.
+After implementing various regression models like KNN,Random Forest Algorithm,Lasso Regression and Ridge Regression by analyzing their respective performance metrics, we came to the conclusion that the **KNN Regressor** is the top-performing model with respect to all the metrics with R-squares score of 0.993112(**Dependent Variable**). However, when considering cross-validation scores and other factors such as time complexity, additional analysis may be required.
